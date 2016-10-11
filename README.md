@@ -4,7 +4,7 @@ This is core to build app with angular, phalcon, mysql
 
 ## Reuquire System
 1. PHP 5.6+, with Phalcon 3.0+
-2. Apache 2+ or Nghinx 1.8+
+2. Apache 2+ or Nginx 1.8+
 3. NPM 3.10.8+.
 4. Git
 
