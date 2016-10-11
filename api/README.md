@@ -5,6 +5,7 @@
 2. Phalcon (build with version 3.0)
 3. Apache 2+ or Nghinx 1.8+
 4. MySQL (v.5.5+)
+
 ## Edit Config 
 - Config at: api/public/index.php
 - Time zone: i'm live Hanoi-Vn using timezone Asia/Bangkok
