@@ -3,7 +3,7 @@
 ## Require System
 1. Php 5.6+ (best 7.0)
 2. Phalcon (build with version 3.0)
-3. Apache 2+ or Nghinx 1.8+
+3. Apache 2+ or Nginx 1.8+
 4. MySQL (v.5.5+)
 
 ## Edit Config 
