@@ -7,7 +7,7 @@
 4. MySQL (v.5.5+)
 
 ## Edit Config 
-- Config at: api/public/index.php
+- File Config: api/public/index.php
 - Time zone: i'm live Hanoi-Vn using timezone Asia/Bangkok
 ```javascript
 date_default_timezone_set('Asia/Bangkok');
