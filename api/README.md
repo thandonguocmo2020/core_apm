@@ -8,18 +8,18 @@
 ## Edit Config 
 - Config at: api/public/index.php
 - Time zone: i'm live Hanoi-Vn using timezone Asia/Bangkok
-```python
+```javascript
 date_default_timezone_set('Asia/Bangkok');
 ```
 - Folder Controller, Model.
-```python
+```javascript
 $loader->registerDirs(array(
 	'../apps/controllers/',
 	'../apps/models/'
 ));
 ```
 - DB Config default with MySQL
-```python
+```javascript
 $di->set('db', function(){
 	return new Database(array(
 		"host" => "localhost",
