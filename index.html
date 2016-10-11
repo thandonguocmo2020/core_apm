@@ -6,9 +6,27 @@
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title page-title></title>
+    
     <!-- include stylesheets -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="canonical" href="https://github.com/manhlinhit/core_apm" />
+    
+    <!-- Meta data demo. Try with: http://ogp.me/ -->
+    <meta property="og:title" content="The Rock" />
+    <meta property="og:type" content="video.movie" />
+    <meta property="og:url" content="http://www.imdb.com/title/tt0117500/" />
+    <meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
+    <meta property="og:audio" content="http://example.com/bond/theme.mp3" />
+    <meta property="og:description" content="Sean Connery found fame and fortune as the
+               suave, sophisticated British agent, James Bond." />
+    <meta property="og:determiner" content="the" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:locale:alternate" content="fr_FR" />
+    <meta property="og:locale:alternate" content="es_ES" />
+    <meta property="og:site_name" content="IMDb" />
+    <meta property="og:video" content="http://example.com/bond/trailer.swf" />
+
+
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
@@ -38,21 +56,24 @@
         })();
     </script>
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+      <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+      <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+      <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
 </head>
 
 <body ng-controller="BaseController">
     <div ui-view=""></div>
     <!-- Import Lib node_module -->
-    <script src="node_modules/angular/angular.min.js"></script>
-    <script src="node_modules/angular-sanitize/angular-sanitize.min"></script>
-    <script src="node_modules/angular-cookies/angular-cookies.min.js"></script>
-    <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
-    <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
+    <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+    <script type="text/javascript" src="node_modules/angular-sanitize/angular-sanitize.min"></script>
+    <script type="text/javascript" src="node_modules/angular-cookies/angular-cookies.min.js"></script>
+    <script type="text/javascript" src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
     <!-- Import Controler -->
-    <script src="controller/BaseController.js"></script>
-    <script src="controller/IndexController.js"></script>
+    <script type="text/javascript" src="controller/BaseController.js"></script>
+    <script type="text/javascript" src="controller/IndexController.js"></script>
     <!-- Import source -->
-    <script src="config/router.js"></script>
+    <script type="text/javascript" src="config/router.js"></script>
 </body>
 
 </html>
