@@ -1,11 +1,25 @@
 <!DOCTYPE html>
-<html ng-app="switaApp">
-
+<html ng-app="switaApp" amp lang="en">
 <head>
     <base href="/">
     <meta charset="UTF-8">
-    <title page-title></title>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title page-title></title>
+    <!-- include stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="canonical" href="https://github.com/manhlinhit/core_apm" />
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Home Page CORE_APM",
+        "headline": "This is core to build app with angular, phalcon, mysql",
+        "datePublished": "2016-10-12T02:30:41Z",
+        "image": [
+          "logo.jpg"
+        ]
+      }
+    </script>
     <!--Include fonts Open Sans-->
     <script type="text/javascript">
         var BASEURL = '/api/';
@@ -23,8 +37,7 @@
             s.parentNode.insertBefore(wf, s);
         })();
     </script>
-    <!-- include stylesheets -->
-    <link rel="stylesheet" href="css/style.css">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 </head>
 
 <body ng-controller="BaseController">
