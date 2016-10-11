@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="switaApp">
+
+<head>
+    <base href="/">
+    <meta charset="UTF-8">
+    <title page-title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!--Include fonts Open Sans-->
+    <script type="text/javascript">
+        var BASEURL = '/api/';
+        WebFontConfig = {
+            google: {
+                families: ['Roboto:300,400,500,700,900','Roboto+Slab:100,300,400,700']
+            }
+        };
+        (function () {
+            var wf = document.createElement('script');
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
+    <!-- include stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body ng-controller="BaseController">
+    <div ui-view=""></div>
+    <!-- Import Lib node_module -->
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-sanitize/angular-sanitize.min"></script>
+    <script src="node_modules/angular-cookies/angular-cookies.min.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
+    <!-- Import Controler -->
+    <script src="controller/BaseController.js"></script>
+    <script src="controller/IndexController.js"></script>
+    <!-- Import source -->
+    <script src="config/router.js"></script>
+</body>
+
+</html>

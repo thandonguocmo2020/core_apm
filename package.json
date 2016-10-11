@@ -1,0 +1,32 @@
+{
+  "name": "core_apm",
+  "version": "1.0.0",
+  "description": "This is core buid app with angular phalcon mysql",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ng_manhlinh@bitbucket.org/swita/frontend.git"
+  },
+  "keywords": [
+    "core_apm",
+    "apm",
+    "angular",
+    "core",
+    "phalcon",
+    "api"
+  ],
+  "author": "manhlinhit",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/swita/frontend#readme",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-cookies": "^1.5.8",
+    "angular-sanitize": "^1.2.32",
+    "angular-ui-bootstrap": "^2.2.0",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap-sass": "^3.3.7"
+  }
+}
