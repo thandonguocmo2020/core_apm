@@ -19,5 +19,10 @@ git clone https://github.com/manhlinhit/core_apm.git
 cd core_apm
 npm install
 ```
+- Using Sass to create style.css
+```pyhon
+cd core_apm
+sass scss::css --watch
+```
 - You can config domain to core_apm folder. 
 
